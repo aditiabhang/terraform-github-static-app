@@ -20,7 +20,7 @@ variable "gh_token" {
 
 variable "slack_hook_url" {
   description = "The Slack webhook URL for publishing messages."
-  default     = ""
+  default     = "https://hooks.slack.com/services/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"
 }
 
 variable "waypoint_application" {
